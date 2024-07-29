@@ -1,0 +1,9 @@
+{
+  "name": "todomvc-ui",
+  "type": "module",
+  "version": "0.0.1",
+  "dependencies": {},
+  "devDependencies": {},
+  "author": "Inno Onye",
+  "license": "MIT"
+}
