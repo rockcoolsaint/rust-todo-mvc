@@ -3,7 +3,8 @@ use thiserror::Error as ThisError;
 mod db;
 mod todo;
 
-pub use db::Db;
+// re-export
+pub use db::{Db, init_db};
 
 #[derive(ThisError, Debug)]
 pub enum Error {
